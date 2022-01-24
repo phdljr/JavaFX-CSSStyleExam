@@ -1,1 +1,16 @@
-/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+	-fx-padding: 10px;
+	-fx-background-color: white;
+}
+
+.radio-button {
+	-fx-font-size: 13;
+}
+
+.radio-button:selected{
+	-fx-background-color: yellow;
+}
+
+#bigButton{
+	-fx-font-size: 30;
+}

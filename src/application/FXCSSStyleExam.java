@@ -40,6 +40,7 @@ public class FXCSSStyleExam extends Application {
 			root.setAlignment(Pos.CENTER);
 			
 			Scene scene = new Scene(root, 380, 150);
+			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setTitle("changeBackground");
 			primaryStage.setScene(scene);
 			primaryStage.show();
